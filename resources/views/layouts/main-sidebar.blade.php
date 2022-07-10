@@ -7,7 +7,7 @@
                     <!-- menu item Dashboard-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#dashboard">
-                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">Dashboard</span>
+                            <div class="pull-left"><i class="ti-home"></i><span class="right-nav-text">{{trans('main-trans.Dashboard')}}</span>
                             </div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
@@ -21,7 +21,7 @@
                         </ul>
                     </li>
                     <!-- menu title -->
-                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title">Components </li>
+                    <li class="mt-10 mb-10 text-muted pl-4 font-medium menu-title"> {{trans('main-trans.Components')}}</li>
                     <!-- menu item Elements-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#elements">
